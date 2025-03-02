@@ -1,0 +1,258 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{float}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheadTwo}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubhead}[3]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\normalsize#3}
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\link}[2]{{\color{blue}\href{#1}{#2}}}
+
+% \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%              CV STARTS HERE              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+\textbf{\huge Hoang-Phuc Nguyen}
+\end{center}
+\begin{center}
+% \begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}l}
+\begin{tabular*}{0.8\textwidth}{r@{\extracolsep{\fill}}l}
+% \begin{tabular*}{\textwidth}{r|l}
+Ho Chi Minh City, Vietnam, (+84) 889-346-456 & Email \href{mailto:nhphuc222@apcs.fitus.edu.vn}{nhphuc222@apcs.fitus.edu.vn}\\
+LinkedIn \href{https://www.linkedin.com/in/nhphucqt}{https://www.linkedin.com/in/nhphucqt} &  Github \href{https://github.com/nhphucqt}{https://github.com/nhphucqt}
+\end{tabular*}
+\end{center}
+
+
+% %----------SUMMARY-----------------
+% \section{Summary}
+%   \resumeSubHeadingListStart
+%     \resumeItemListStart
+%       \resumeItem{Software Engineer Intern at Google in 2019, Facebook in 2017 \& 2018}
+%       \resumeItem{IOI 2015 gold medalist, ICPC World Finals 2016, 2017 \& 2019}
+%       \resumeItem{Experience with C++, Java, JavaScript, PHP, OCaml, HTML, Hack \& React}
+%     \resumeItemListEnd
+%   \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubhead
+      {Software Engineering Laboratory -- SELab HCMUS}{Aug. 2024 -- Present}
+      {Research Student -- Supervised by Assoc. Prof Minh-Triet Tran on Computer Vision}
+      \resumeItemListStart
+      	\resumeItem{Study and participate in many projects focusing on Deep Learning and Computer Vision.}
+            \resumeItem{Collaborated with a multidisciplinary team to develop innovative solutions for real-world challenges.}
+            \resumeItem{Conducted experiments, analyzed results, and improved skills in AI model training and optimization.}
+            \resumeItem{Participated in lab seminars and presentations to share findings and learn from peers' research.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------Publications-----------------
+\section{Selected Publications}
+    \resumeSubHeadingListStart
+        \resumeItem{Taher YACOUB, Nika Zarubina, Camille Depenveiller, \underline{\textbf{Hoang-Phuc Nguyen}}, Vinh-Toan Vong, Minh-Triet Tran, Yuki Kagaya, Tsukasa Nakamura, Daisuke Kihara, Florent Langenfeld, Matthieu Montes. \textcolor{BlueViolet}{\textbf{SHREC 2024: Non-rigid complementary shapes retrieval in protein-protein interactions}}. 3DOR 2024, The Eurographics Association, \href{https://dx.doi.org/10.2312/3dor.20241173}{10.2312/3dor.20241173}.}
+        \resumeItem{Duc-Nhuan Le, \underline{\textbf{Hoang-Phuc Nguyen}}, Vinh-Toan Vong, Nguyen-Khoa Luong, Trong-Le Do. \textcolor{BlueViolet}{\textbf{HP×PKD: Progressive Training Pipeline with Knowledge Distillation for Lightweight Backbones in Pedestrian Detection}}. MAPR 2024, IEEE, \href{https://doi.org/10.1109/MAPR63514.2024.10660994}{10.1109/MAPR63514.2024.10660994}.}
+        \resumeItem{Duc-Nhuan Le, \underline{\textbf{Hoang-Phuc Nguyen}}, Thanh-Duy Lam,
+Minh-Nhut Dang, and Minh-Hoang Le. \textcolor{BlueViolet}{\textbf{CESE: A Clip-based Event Search Engine for AI Challenge HCMC 2024}}. SOICT 2024, Springer CCIS.}
+        \resumeItem{\underline{\textbf{Hoang-Phuc Nguyen}}, Quoc-Trung Nguyen, Minh-Triet Tran. \textcolor{BlueViolet}{\textbf{Mouse Paw Inflammation Evaluation with Segment Anything and Lightness Classification}}. SOICT 2024, Springer CCIS.}
+    \resumeSubHeadingListEnd
+
+%----------PROJECTS------------
+\section{Selected Projects}
+    \resumeSubHeadingListStart
+        \resumeSubhead{Vietnamese Food Recognizer}{Aug. 2023 -- Sep. 2023}
+        {Mobile Developer}
+        \resumeItemListStart
+        \resumeItem{Created Vietnamese Culinary Explorer, an Android app to promote Vietnamese cuisine, assist tourists in finding restaurants, recognizing dishes, and learning about their cultural significance, enhancing their travel experience.}
+        \resumeItem{Built a Restaurant Recommender using Java and XML. Integrated Google Maps API, food recognition with a MobileNet model, added ChatGPT for culinary insights, a digital stamps system, and utilized Realm databases.}
+        \resumeItemListEnd
+        
+        \resumeSubhead{Algorita -- A tool for visualizing algorithms and data structures}{Mar. 2023 -- Aug. 2023}
+        {Desktop Application Developer}
+        \resumeItemListStart  
+            \resumeItem{Developed an interactive visualization tool in C++ to demonstrate the functionality of various algorithms and data structures, enhancing understanding for students and professionals.}  
+            \resumeItem{Implemented and visualized DFS/BFS, Dijkstra, Minimum Spanning Tree, and Connected Components.}  
+            \resumeItem{Designed and integrated data structures such as Static/Dynamic Arrays, Singly/Doubly/Circular Linked Lists, Stacks, Queues, Hash Tables, Graph, Tries, Binary Search Trees, Min/Max Heaps, AVL Trees, and 2-3-4 Trees.}  
+            \resumeItem{Gained expertise in algorithm analysis and data structure implementation, fostering a strong foundation for solving complex computational problems.}  
+        \resumeItemListEnd
+
+        \resumeSubhead{Overpass -- A ``cross the road" game}{Oct. 2023 -- Jan. 2024}
+        {Game Developer}
+        \resumeItemListStart
+            \resumeItem{Developed a ``Road Crossing" game in C/C++ with SFML Framework using Object-Oriented Programming (OOP), focusing on player movement, collision detection, traffic lights, and multi-level gameplay.}
+            \resumeItem{Built a simple OOP framework on top of SFML, inspired by the Android Java framework, integrating various design patterns to ensure efficient and scalable software architecture.}
+            \resumeItem{Applied special motion effects, implemented save/load functionality, and additional features like weather effects and varying vehicles/animals to enhance gameplay.}
+        \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+    
+%-----------AWARDS----------
+\section{Selected Achievements and Awards}
+    \resumeSubHeadingListStart
+        \resumeSubheadTwo
+        {International Collegiate Programming Contest (ICPC) -- Regional}{2024}
+        \resumeItemListStart
+            \resumeItem{Competed in a team of three to solve 10‐-13 algorithmic problems in 5 hours using C++ \& Python.}
+            \resumeItem{Ranked \textbf{30th (Third Prize} in the 2024 ICPC Hanoi Regional.}
+        \resumeItemListEnd
+          
+        \resumeSubheadTwo
+        {International Collegiate Programming Contest (ICPC) -- National}{2022, 2023, 2024}
+        \resumeItemListStart
+            \resumeItem{Competed in a team of three to solve 10‐-13 algorithmic problems in 5 hours using C++ \& Python.}
+            \resumeItem{Ranked \textbf{25th (Co-Silver)} in 2024, \textbf{61th (Co-Bronze)} in 2023, \textbf{39th (Co-Silver)} in 2022.}
+        \resumeItemListEnd
+
+
+        \resumeSubheadTwo
+            {National Olympiad in Informatics for High School Students}{2021, 2022}
+            \resumeItemListStart
+                \resumeItem{Competed individually in 2 days to solve 3 algorithmic problems in 3 hours on each day.}
+                \resumeItem{Ranked \textbf{12th (Top 1 in Second Prize)} in 2022, \textbf{Third Prize} in 2021.}
+        \resumeItemListEnd
+
+        % \resumeSubheadTwo
+        %     {National Olympiad in Informatics Team Selection Test}{2022}
+        %     \resumeItemListStart
+        %         \resumeItem{Competed individually in 2 days to solve 3 algorithmic problems in 5 hours on each day.}
+        %         \resumeItem{Ranked \textbf{25th} in 2022.}
+        %     \resumeItemListEnd
+
+        \resumeSubheadTwo
+            {AI Challenges}{}
+            \resumeItemListStart
+                \resumeItem{Achieved \textbf{top 2} overall performance at track Protein shapes docking – SHREC 2024.}
+                \resumeItem{Honorable Mention in the Final Round of Ho Chi Minh City AI Challenge 2024.}
+            \resumeItemListEnd
+
+        % \resumeSubheadTwo
+        %     {Miscellaneous}{}
+        %     \resumeItemListStart
+        %         \resumeItem{\textbf{First Prize} (HCMUS division) of Capture-the-flag competition HCMUS -- CTF 2022.}
+        %     \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubhead
+        {University of Science, VNU-HCM (HCMUS), Ho Chi Minh City, Vietnam}{Sep. 2022 -- Present}
+        {Advanced Program in Computer Science;  GPA: 9.57/10.0 -- 3.99/4.00}
+        \resumeItemListStart
+            \resumeItem{Honors: Dean’s List of the academic year 2022-2023 \textbf{(Top 1 GPA)}.}
+            \resumeItem{Review coursework: Linear Algebra, Statistics, Data Structures, Discrete Structures, Logical Structures, Calculus, Computer Systems, Database, Scientific Method, Technical Writing, OOP, General Physics, Computer Hardware, Mobile Application Development.}
+        \resumeItemListEnd
+    \resumeSubhead
+        {Le Quy Don High School for the Gifted, Quang Tri Province, Vietnam}{Sep. 2019 - Jun. 2022}
+        {Major in Information Technology}
+  \resumeSubHeadingListEnd
+
+%-----------Activities-----------------
+\section{Activities}
+  \resumeSubHeadingListStart
+    \resumeSubhead
+      {Le Quy Don Online Judge (LQDOJ)}{Jun. 2022 -- Jun. 2024}
+      {Administrator}
+      \resumeItemListStart
+        \resumeItem{Designed and authored programming exercises and solutions to enhance problem-solving skills.}
+        \resumeItem{Organized competitive programming contests and teaching sessions for middle and high school students.}
+        \resumeItem{Served as an organizer for two major competitions, each comprising nearly 10 contest rounds, to prepare high school students for the National Olympiad in Informatics.}
+        \resumeItem{Developed expertise in curriculum design, event coordination, and teaching programming to diverse age groups.}
+      \resumeItemListEnd
+
+    \resumeSubhead
+      {National Olympiad in Informatics Team -- Quang Tri Province, Vietnam}{Jun. 2022 -- Present}
+      {Mentor}
+      \resumeItemListStart
+        \resumeItem{Participated in training the National Olympiad in Informatics team (10–20 students) at Le Quy Don High School for the Gifted, Quang Tri Province, Vietnam.}
+        \resumeItem{Prepared lectures and algorithms for competitive programming, taught the national team, and organized contests to foster problem-solving in a collaborative environment.}
+        \resumeItem{Improved expertise in competitive programming coaching, curriculum planning, and team development.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS------------
+\section{Skills}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{p{0.25\linewidth}p{0.75\linewidth}}
+        Technical Skills: & Scientific Research, Problem Solving, Machine Learning, Computer Vision\\
+        Programming Languages: & C/C++, Python, Java, SQL, HTML, JavaScript, CSS, LaTeX, Markdown\\
+        Frameworks/Tools: & Pytorch, MMDetection, Flask, Android SDK, Git/GitHub, Docker\\
+        Languages: & English (fluent), Vietnamese (native speaker)
+    \end{tabular}
+\end{table}
+
+
+  
+\end{document}
